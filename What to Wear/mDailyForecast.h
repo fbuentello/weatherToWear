@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  mDailyForecast.h
 //  What to Wear
 //
 //  Created by Fabian Buentello on 2/27/15.
 //  Copyright (c) 2015 Fabian Buentello. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "mCondition.h"
 
-@interface ViewController : UIViewController
-
+@interface mDailyForecast : mCondition
 
 @end
-
