@@ -59,7 +59,7 @@
 
 /* Begin PBXFileReference section */
 		21EFAA42AA1557C7C338A3D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		314555D51AA09EC700799EB2 /* WeatherToWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherToWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314555D51AA09EC700799EB2 /* What to Wear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What to Wear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314555D91AA09EC700799EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314555DA1AA09EC700799EB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		314555DC1AA09EC700799EB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		314555E31AA09EC700799EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		314555E51AA09EC700799EB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		314555E81AA09EC700799EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		314555EE1AA09EC700799EB2 /* WeatherToWearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherToWearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314555EE1AA09EC700799EB2 /* What to WearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What to WearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314555F31AA09EC700799EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314555F41AA09EC700799EB2 /* What_to_WearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = What_to_WearTests.m; sourceTree = "<group>"; };
 		314555FE1AA09F5A00799EB2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		314555D61AA09EC700799EB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				314555D51AA09EC700799EB2 /* WeatherToWear.app */,
-				314555EE1AA09EC700799EB2 /* WeatherToWearTests.xctest */,
+				314555D51AA09EC700799EB2 /* What to Wear.app */,
+				314555EE1AA09EC700799EB2 /* What to WearTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,9 +268,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		314555D41AA09EC700799EB2 /* WeatherToWear */ = {
+		314555D41AA09EC700799EB2 /* What to Wear */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 314555F81AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "WeatherToWear" */;
+			buildConfigurationList = 314555F81AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "What to Wear" */;
 			buildPhases = (
 				99F2DA2F352353E31BB133FA /* Check Pods Manifest.lock */,
 				314555D11AA09EC700799EB2 /* Sources */,
@@ -282,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = WeatherToWear;
+			name = "What to Wear";
 			productName = "What to Wear";
-			productReference = 314555D51AA09EC700799EB2 /* WeatherToWear.app */;
+			productReference = 314555D51AA09EC700799EB2 /* What to Wear.app */;
 			productType = "com.apple.product-type.application";
 		};
-		314555ED1AA09EC700799EB2 /* WeatherToWearTests */ = {
+		314555ED1AA09EC700799EB2 /* What to WearTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 314555FB1AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "WeatherToWearTests" */;
+			buildConfigurationList = 314555FB1AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "What to WearTests" */;
 			buildPhases = (
 				314555EA1AA09EC700799EB2 /* Sources */,
 				314555EB1AA09EC700799EB2 /* Frameworks */,
@@ -300,9 +300,9 @@
 			dependencies = (
 				314555F01AA09EC700799EB2 /* PBXTargetDependency */,
 			);
-			name = WeatherToWearTests;
+			name = "What to WearTests";
 			productName = "What to WearTests";
-			productReference = 314555EE1AA09EC700799EB2 /* WeatherToWearTests.xctest */;
+			productReference = 314555EE1AA09EC700799EB2 /* What to WearTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 314555D01AA09EC700799EB2 /* Build configuration list for PBXProject "WeatherToWear" */;
+			buildConfigurationList = 314555D01AA09EC700799EB2 /* Build configuration list for PBXProject "What to Wear" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -336,8 +336,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				314555D41AA09EC700799EB2 /* WeatherToWear */,
-				314555ED1AA09EC700799EB2 /* WeatherToWearTests */,
+				314555D41AA09EC700799EB2 /* What to Wear */,
+				314555ED1AA09EC700799EB2 /* What to WearTests */,
 			);
 		};
 /* End PBXProject section */
@@ -449,7 +449,7 @@
 /* Begin PBXTargetDependency section */
 		314555F01AA09EC700799EB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 314555D41AA09EC700799EB2 /* WeatherToWear */;
+			target = 314555D41AA09EC700799EB2 /* What to Wear */;
 			targetProxy = 314555EF1AA09EC700799EB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,7 +560,7 @@
 				INFOPLIST_FILE = "What to Wear/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = WeatherToWear;
+				PRODUCT_NAME = "What to Wear";
 			};
 			name = Debug;
 		};
@@ -572,7 +572,7 @@
 				INFOPLIST_FILE = "What to Wear/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = WeatherToWear;
+				PRODUCT_NAME = "What to Wear";
 			};
 			name = Release;
 		};
@@ -590,7 +590,7 @@
 				);
 				INFOPLIST_FILE = "What to WearTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WeatherToWearTests;
+				PRODUCT_NAME = "What to WearTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What to Wear.app/What to Wear";
 			};
 			name = Debug;
@@ -605,7 +605,7 @@
 				);
 				INFOPLIST_FILE = "What to WearTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = WeatherToWearTests;
+				PRODUCT_NAME = "What to WearTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What to Wear.app/What to Wear";
 			};
 			name = Release;
@@ -613,7 +613,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		314555D01AA09EC700799EB2 /* Build configuration list for PBXProject "WeatherToWear" */ = {
+		314555D01AA09EC700799EB2 /* Build configuration list for PBXProject "What to Wear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				314555F61AA09EC700799EB2 /* Debug */,
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		314555F81AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "WeatherToWear" */ = {
+		314555F81AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "What to Wear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				314555F91AA09EC700799EB2 /* Debug */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		314555FB1AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "WeatherToWearTests" */ = {
+		314555FB1AA09EC700799EB2 /* Build configuration list for PBXNativeTarget "What to WearTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				314555FC1AA09EC700799EB2 /* Debug */,
